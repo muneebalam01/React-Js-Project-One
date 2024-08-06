@@ -1,0 +1,72 @@
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  height: 32px;
+  color: #fff;
+  font-weight: 500;
+  background: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+}
+
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+
+.hero p {
+  font-weight: 600;
+  color: gray;
+}
+
+
+.hero-btns{
+  display: flex;
+  gap: 40px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: gray;
+  border: solid 1px gray;
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
